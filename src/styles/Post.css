@@ -1,0 +1,56 @@
+.post-card {
+  border: 1px solid #e9d5ff;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  transition: box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+  box-shadow: 0 4px 14px rgba(107, 33, 168, 0.12);
+}
+
+/* Conditional styling: highlight posts by a featured author */
+.post-card--featured {
+  background-color: #f7fee7; /* soft lemon green */
+  border-color: #a3e635;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-title {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #6b21a8; /* purple */
+}
+
+.new-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #7c2d12;
+  background-color: #fdba74; /* orange */
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+}
+
+.post-meta {
+  margin: 0 0 0.75rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.post-preview {
+  margin: 0;
+  color: #374151;
+  line-height: 1.55;
+  white-space: pre-line;
+}
