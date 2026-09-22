@@ -1,0 +1,12 @@
+.app {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at top left, rgba(167, 139, 250, 0.22), transparent 45%),
+    radial-gradient(ellipse at bottom right, rgba(163, 230, 53, 0.2), transparent 40%),
+    radial-gradient(ellipse at top right, rgba(249, 115, 22, 0.12), transparent 35%),
+    #faf5ff;
+}
+
+.app main {
+  padding-bottom: 2rem;
+}
