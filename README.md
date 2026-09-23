@@ -119,3 +119,9 @@ No CSS-in-JS libraries were added; styling uses external CSS + inline styles.
 ## Author
 
 **Moses Peter** — Junior developer assessment for the Dev Insights Mini Blog foundation.
+
+---
+
+## Note on Vite setup
+
+This project was initialized with Vite’s official React + TypeScript starter (`npm create vite@latest … --template react-ts`), then all Mini Blog components, styles, types, and the HOC were built by hand. No third-party React UI/blog template was used.
