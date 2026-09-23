@@ -118,4 +118,4 @@ No CSS-in-JS libraries were added; styling uses external CSS + inline styles.
 
 ## Author
 
-Junior developer assessment for **Dev Insights** Mini Blog foundation.
+**Moses Peter** — Junior developer assessment for the Dev Insights Mini Blog foundation.
