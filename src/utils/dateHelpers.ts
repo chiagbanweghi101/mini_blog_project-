@@ -16,8 +16,11 @@ export function formatDisplayDate(datePosted: string): string {
   });
 }
 
-/** Short preview of post content (keeps line breaks; caps long posts). */
-export function getContentPreview(content: string, maxLines = 3): string {
-  const lines = content.trim().split(/\n/).slice(0, maxLines);
-  return lines.join('\n');
+/** Short preview of post content (first few words). */
+export function getContentPreview(content: string, wordLimit = 15): string {
+  const words = content.trim().split(/\s+/);
+  if (words.length <= wordLimit) {
+    return words.join(' ');
+  }
+  return `${words.slice(0, wordLimit).join(' ')}…`;
 }
